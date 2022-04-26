@@ -1,0 +1,74 @@
+body{
+    background-color: #574F9C;
+  }
+
+  img{
+    object-position: center;
+    width: 500px; height: auto;
+    border-radius: 95%;
+  }
+
+  footer {
+    background-color: rgb(233, 221, 221);
+    color: white;
+    text-align: center;
+    height: 80px;
+  }
+
+  a{
+    font-family: 'Montserrat Alternates';
+    font-weight: 600;
+    font-size: medium;
+  }
+
+.WIPintro{
+    font-family: 'Montserrat Alternates';
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cards {
+  background-color: #c1ecb3;
+  padding: 15px;
+  box-shadow: 5px 8px #38326b;
+  font-family: 'Ubuntu Mono';
+  font-weight: 600;
+  font-size: medium;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(12, 1fr);
+  column-gap: 5px;
+  row-gap: 15px;
+}
+
+.icon{
+  width: 50px;
+  height: auto;
+}
+
+#eyemovement{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#pacmen{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+
+#bustracker{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 10;
+}
