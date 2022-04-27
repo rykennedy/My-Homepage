@@ -5,6 +5,7 @@ There is also a project page showcasing the exercises for the Eye Movement, PacM
 
 Utilization
 The page is hosted on GitHub pages here. The Navbar at the top links between the projects and the homepage.
+Web address to open the page: https://rykennedy.github.io/My-Homepage/
 
 Roadmap
 Future ideas include:
